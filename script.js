@@ -4,9 +4,7 @@ let generateBtn = document.getElementById("generateBtn").addEventListener('click
     generateInput = document.getElementById("generateInput");
     let randomNum = Math.floor(Math.random() * 9000) + 1000;
     generateInput.value = randomNum;
-
-    document.getElementById("generateBtn").style.background = '#5c659e';    
-    document.getElementById("generateBtn").disabled = true;    
+  
 
 })
 // calculator ALL input digit control...
@@ -45,6 +43,7 @@ const submit = document.getElementById("submitBtn").addEventListener('click', fu
         }
         if (tryLeftValue == 1) {
             document.getElementById('submitBtn').style.background = 'red';
+            document.getElementById('submitBtn').disabled = true;
         }
     }
     // ALERT MASSAGE...
