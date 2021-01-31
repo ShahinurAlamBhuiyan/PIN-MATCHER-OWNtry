@@ -45,7 +45,6 @@ const submit = document.getElementById("submitBtn").addEventListener('click', fu
         }
         if (tryLeftValue == 1) {
             document.getElementById('submitBtn').style.background = 'red';
-            document.getElementById('submitBtn').disabled = true;
         }
     }
     // ALERT MASSAGE...
