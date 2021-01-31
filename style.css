@@ -2,8 +2,10 @@
     box-sizing: border-box;
 }
 body {
+    position: relative;
     background: #10101B;
     height: 100vh;
+    
 }
 .container {
     margin-top: 30px;
@@ -30,6 +32,9 @@ body {
 .generate-btn:focus{
     outline: none;
     box-shadow: none;
+}
+.generate-btn:active{
+    background-color: rgba(73, 91, 195, .3);
 }
 
 input[type='text']{
@@ -125,4 +130,37 @@ color: #E0B612;
 }
 #welcome{
     display: none;
+}
+.form-control{
+    text-align: center;
+}
+#alertMassage{
+    display: none;
+    width: 600px;
+    background-color: salmon;
+    position: absolute;
+    padding: 50px 100px 50px  100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    text-align: center;
+}
+#alertBtn{
+    padding: 9px 40px;
+    margin-top: 25px;
+    background-color:  #495BC3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+#alertBtn:focus{
+    outline: none;
+}
+#alertBtn:active{
+    background-color:  rgba(73, 91, 195, 0.5);
 }
