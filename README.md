@@ -18,7 +18,8 @@ This is a matching method like a machin for generating pin code.
 * If you put nothing and click the submit button
   * than you get a alert message.
 
-![Let's take a look!](image/pin-matcher-photo.jpg)
+## Let's take a look!
+![alt text](image/pin-matcher-photo.jpg)
 
 ## Click below to enjoy...
 [CLICK ME](https://shahinuralambhuiyan.github.io/PIN-MATCHER-OWNtry/)
