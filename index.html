@@ -16,7 +16,7 @@
             <div class="col-md-6">
                 <div class="pin-generator half-width">
                     <input id="generateInput" class="form-control" type="text" placeholder="Generate your pin">
-                    <button id="generateBtn" class="generate-btn">Generate Pin</button>
+                    <button id="generateBtn" class="generate-btn" data-bs-toggle="tooltip" data-bs-placement="right" title="click here to get pin">Generate Pin</button>
                 </div>
             </div>
             <div class="col-md-6">
@@ -40,9 +40,9 @@
                               <button class="button" onclick="calculatorInput.value += '3';disableControl() ">3</button>
                             </div>
                             <div class="calc-button-row">
-                                <button class="button" onclick="calculatorInput.value =  calculatorInput.value.slice(0, -1)  "> < </button>
+                                <button class="button" onclick="calculatorInput.value =  calculatorInput.value.slice(0, -1)  "> DEL </button>
                                 <button class="button" onclick="calculatorInput.value += '0';disableControl() ">0</button>
-                                <button class="button" onclick="calculatorInput.value = '' ">C</button>
+                                <button class="button" onclick="calculatorInput.value = '' ">AC</button>
                             </div>
                             <div>
                                 <button type="submit" class="submit-btn" id="submitBtn">Submit</button>

@@ -17,6 +17,9 @@ body {
     padding: 30px;
     text-align: center;
 }
+/* .pin-generator{
+    display: none;
+} */
 .generate-btn{
     margin-top: 140px;
     width: 180px;
