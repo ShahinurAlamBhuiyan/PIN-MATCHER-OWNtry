@@ -44,6 +44,10 @@ const submit = document.getElementById("submitBtn").addEventListener('click', fu
         if (tryLeftValue == 1) {
             document.getElementById('submitBtn').style.background = 'red';
             document.getElementById('submitBtn').disabled = true;
+            document.getElementById('generateBtn').style.background = '#616db3'
+            document.getElementById('generateBtn').style.border = '8px solid red'
+            document.getElementById('generateBtn').disabled = true;
+            document.getElementById('reloadMe').style.background = 'green';
         }
     }
     // ALERT MASSAGE...
@@ -57,4 +61,8 @@ const submit = document.getElementById("submitBtn").addEventListener('click', fu
         }
     }
 })
+
+    const reload = document.getElementById('reloadMe').addEventListener('click', function () {
+        window.location.reload()
+    })
 

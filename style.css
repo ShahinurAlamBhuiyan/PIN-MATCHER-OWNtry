@@ -17,15 +17,13 @@ body {
     padding: 30px;
     text-align: center;
 }
-/* .pin-generator{
-    display: none;
-} */
+
 .generate-btn{
     margin-top: 140px;
     width: 180px;
     padding: 50px;
     border-radius: 50%;
-    border: 8px solid #39458C;
+    border: 8px solid green;
     background-color: #495BC3;
     color: #ffffff;
     font-weight: bold;
